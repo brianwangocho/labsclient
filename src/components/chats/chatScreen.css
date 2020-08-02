@@ -1,0 +1,38 @@
+.chat_message{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+.chatting_text{
+    margin-left: 10px;
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 20px;
+}
+.chatting_textuser{
+    margin-left: auto;
+    background-color: #2299bb;
+    color: white;
+    padding: 15px;
+    border-radius: 20px;
+}
+.input__message{
+    display: flex;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    border-top: 1px solid lightgray;
+}
+.inputField__message{
+    flex: 1;
+    padding: 10px;
+    border: none;
+}
+.send__button{
+    border: none;
+    margin-right: 20px;
+    background-color: white;
+    font-weight: bolder;
+    color:red;
+}
