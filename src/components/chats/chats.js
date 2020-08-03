@@ -1,10 +1,12 @@
 import React from 'react'
 import Chat from "./chat"
 
+
 function Chats(){
 
     return(
         <div>
+        
             <Chat
             name="Dwight"
             message="Met a dentist called krentist"
@@ -23,8 +25,8 @@ function Chats(){
             timestamp="40 minutes"
             profilePic="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQDq2h5t2LyAhh7yDVoP_x803cS9yAPSUYYeg&usqp=CAU"
             />
+            </div>
 
-        </div>
     )
 }
 export default Chats;

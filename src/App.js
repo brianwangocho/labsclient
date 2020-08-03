@@ -24,7 +24,6 @@ function App() {
         <Header backbutton="/"/>
         <Chats/>
         </Route>
-       
         <Route path="/">
         <Header/>
         <Cards/>
