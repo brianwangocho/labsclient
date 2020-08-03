@@ -6,6 +6,7 @@ import Cards from './components/cards/Card'
 import SwipeButtons from './components/swipebuttons/swipebutton';
 import Chats from './components/chats/chats';
 import ChatScreen from './components/chats/chatScreen';
+import VideoCall from './components/videocall/VideoCall';
 
 
 function App() {
@@ -13,6 +14,10 @@ function App() {
     <div className="App">
     <Router>
       <Switch>
+      <Route path="/videocall/:person">
+        <Header backbutton="/chats"/>
+        <VideoCall/>
+        </Route>
       <Route path="/chats/:person">
         <Header backbutton="/chats"/>
         <ChatScreen/>

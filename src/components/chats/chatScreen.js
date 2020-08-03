@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import "./chatScreen.css"
 import Avatar from "@material-ui/core/Avatar"
+import PhoneIcon from '@material-ui/icons/Phone';
+import { Link } from 'react-router-dom';
 
 function ChatScreen(){
     const[input,setInput]=useState([]);
@@ -44,6 +46,10 @@ function ChatScreen(){
             ):(
                 <div className="chat_message">
                 <p className="chatting_textuser">{message.message}</p> 
+                <Link to={`/videocall/${message.name}`}>
+                <PhoneIcon/>
+                </Link>
+              
                 </div>
 
                 
