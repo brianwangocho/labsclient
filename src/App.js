@@ -11,10 +11,7 @@ import ChatScreen from './components/chats/chatScreen';
 function App() {
   return (
     <div className="App">
-   
-    
     <Router>
-    
       <Switch>
       <Route path="/chats/:person">
         <Header backbutton="/chats"/>
@@ -30,11 +27,7 @@ function App() {
         <SwipeButtons/>
         </Route>
       </Switch>
-    
-
     </Router>
-    
-     
     </div>
   );
 }

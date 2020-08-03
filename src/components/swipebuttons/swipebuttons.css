@@ -9,7 +9,12 @@
     background-color: white;
     box-shadow: 0px 10px 53px 0px rgba(0,0,0,0.3) !important;
 }
-.swipe_buttons__repeat{ 
-    padding: 3vw !important;
-    color: #62b462 !important;
-}
+
+@media only screen and (max-width: 600px) {
+  .swipe_buttons{
+    margin-top: 10px;
+    bottom: 30vh;
+    align-items: center;
+
+  }
+  } 
