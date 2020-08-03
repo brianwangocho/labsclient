@@ -15,18 +15,18 @@ export default function Header({backbutton}){
         <div className="header">
         {backbutton?(
             <IconButton onClick={()=>history.replace(backbutton)}>
-            <ArrowBackIosIcon fontSize="large" className="header__icon"/>
+            <ArrowBackIosIcon  className="header__icon"/>
             </IconButton>
 
         ):(    <IconButton>
-            <PersonIcon className="header__icon" fontSize="large"/>
+            <PersonIcon  size="medium"className="header__icon" />
             </IconButton>)}
      
         <p>Labs Image</p>
 
         <Link to="/chats">
         <IconButton>
-        <ForumIcon className="header__icon"fontSize="large"/>
+        <ForumIcon className="header__icon"/>
         </IconButton>
         </Link>
      
